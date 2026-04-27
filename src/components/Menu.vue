@@ -277,7 +277,7 @@ onBeforeMount(() => {
   }
   .svg-selected{
     height: 51px;
-    margin-left: -10px;
+    margin-left: -12px;
     margin-top: -2px;
   }
 
@@ -307,4 +307,15 @@ onBeforeMount(() => {
   }
 }
 
+@media screen and (max-width: 374px) {
+  .menu-wrapper{
+    max-width: 320px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0;
+  }
+  .container-arrow{
+    width: 80px;
+  }
+}
 </style>

@@ -144,6 +144,7 @@ svg path{
   .greet{
     font-size: 36px;
     margin-left: 20px;
+    margin-right: 0;
   }
   .dev{
     font-size: 32px;
@@ -158,7 +159,6 @@ svg path{
     font-size: 25px;
   }
   .container-image .label-pizza{
-    background-color: var(--pizza-color);
     right: 92px;
     top: 87px;
     height: 40px;
@@ -174,25 +174,20 @@ svg path{
     right: 355px;
     width: 79px;
     height: 44px;
-    background-color: var(--code-color);
     padding-left: 15px;
     line-height: 44px;
   }
   .container-image .label-coffee{
-    top: 118px;
+    top: 116px;
     right: 232px;
     width: 22px;
     height: 65px;
     line-height: 100px;
     padding-left: 6px;
-    background-color: var(--coffee-color);
   }
 }
 
 @media screen and (max-width: 480px) {
-  .dev{
-    margin: 15px auto 30px;
-  }
   .svg-home-large{
     display: none;
   }
@@ -208,7 +203,6 @@ svg path{
     font-size: 25px;
   }
   .container-image .label-pizza{
-    background-color: var(--pizza-color);
     right:25px;
     top: 45px;
     height: 25px;
@@ -224,7 +218,6 @@ svg path{
     right: 247px;
     width: 113px;
     height: 39px;
-    background-color: var(--code-color);
     padding-left: 5px;
     line-height: 39px;
   }
@@ -235,7 +228,45 @@ svg path{
     height: 50px;
     line-height: 68px;
     padding-left: 3px;
-    background-color: var(--coffee-color);
+  }
+}
+
+@media screen and (max-width: 374px) {
+  .greet{
+    font-size: 34px;
+  }
+  .dev{
+    max-width: 300px;
+  }
+  .svg-home-small{
+    width: 300px;
+  }
+  .container-image .label-pizza{
+    right: 21px;
+    top: 41px;
+    height: 25px;
+    text-align: right;
+    padding-left: 0;
+    padding-right: 5px;
+    line-height: 25px;
+    font-weight: 600;
+    width: 102px;
+  }
+  .container-image .label-code{
+    top: 73px;
+    right: 231px;
+    width: 53px;
+    height: 39px;
+    padding-left: 5px;
+    line-height: 39px;
+  }
+  .container-image .label-coffee{
+    top: 127px;
+    right: 145px;
+    width: 15px;
+    height: 50px;
+    line-height: 68px;
+    padding-left: 2px;
   }
 }
 </style>

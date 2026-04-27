@@ -74,4 +74,12 @@ import Card from "@/components/Card.vue"
     padding: 25px 30px 0;
   }
 }
+@media screen and (max-width: 374px) {
+  .container-photo{
+    height: 280px;
+  }
+  .container-photo p{
+    font-size: 26px;
+  }
+}
 </style>

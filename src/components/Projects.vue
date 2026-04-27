@@ -86,4 +86,10 @@ const getImageUrl = (name) => {
   }
 }
 
+@media screen and (max-width: 374px) {
+  .project-card{
+    height: 260px;
+    font-size: 16px;
+  }
+}
 </style>
