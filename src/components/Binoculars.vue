@@ -29,7 +29,6 @@
 }
 
 .label-not-found{
-  font-family: 'Scotch(FONT BY LYAJKA)';
   font-size: 50px;
 }
 .svg-wrapper{

@@ -39,7 +39,6 @@ import IconExternal from '@/components/svg/IconExternal.vue';
 .contacts-text{
   position: relative;
   z-index: 10;
-  font-family: 'Scotch(FONT BY LYAJKA)';
   font-weight: 600;
   color:var(--text-color);
   white-space: nowrap;

@@ -68,7 +68,6 @@ import Contacts from './Contacts.vue';
 
 <style scoped>
 .home-text{
-  font-family: 'Scotch(FONT BY LYAJKA)';
   font-size: 50px;
   line-height: 1.2em;
   text-align: center;
@@ -105,7 +104,6 @@ svg path{
 }
 
 .container-image span{
-  font-family: 'Scotch(FONT BY LYAJKA)';
   position: absolute;
   display: block;
   z-index: 1;

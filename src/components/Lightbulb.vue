@@ -78,7 +78,6 @@ const toggleTheme = ()=>{
   stroke-width: 0.5px;
   animation: menuTextAnim 3s ease forwards;
   animation-delay: 2.5s;
-  font-family: 'Scotch(FONT BY LYAJKA)';
 }
 @keyframes menuTextAnim {
   to {

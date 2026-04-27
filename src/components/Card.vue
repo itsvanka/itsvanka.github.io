@@ -39,7 +39,6 @@ defineProps({
   height: 20%;
   bottom: 0;
   width: 100%;
-  font-family: 'Scotch(FONT BY LYAJKA)';
   padding-left: 8%;
   padding-right: 8%;
 }

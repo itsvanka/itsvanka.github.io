@@ -27,6 +27,15 @@ import Card from "@/components/Card.vue"
   flex-grow: 1;
   font-size: 20px;
   margin: 0 35px;
+  font-family:
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    'Fira Sans',
+    'Droid Sans',
+    'Helvetica Neue',
+    sans-serif;
 }
 .container-photo{
   height: 420px;
