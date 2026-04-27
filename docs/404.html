@@ -5,16 +5,6 @@
     <script>
       (function () {
         var path = location.pathname + location.search + location.hash;
-
-        // prevent infinite loop
-        if (sessionStorage.getItem('redirected')) {
-          sessionStorage.removeItem('redirected');
-          return;
-        }
-
-        sessionStorage.setItem('redirected', 'true');
-
-        // redirect to index.html with path preserved
         location.replace('/?redirect=' + encodeURIComponent(path));
       })();
     </script>
