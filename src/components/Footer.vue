@@ -1,15 +1,7 @@
-<template>
-  <v-container fluid class="footer">© Ivan Chernyshov, 2018-2020 - personal website</v-container>
-</template>
+<script setup>
 
-<script>
-export default {
-  name: "Footer",
-  data() {
-    return {};
-  }
-};
 </script>
 
-<style scoped>
-</style>
+<template>
+  <footer>Ivan Chernyshov - Personal Website</footer>
+</template>

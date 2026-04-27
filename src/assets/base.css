@@ -1,0 +1,51 @@
+:root {
+  --bg-color: #ffffff;
+  --menu-bg-color:#a0ebfc;
+  --card-bg-color:#f2f2f2;
+  --text-color:black;
+  --pizza-color:#ffdc74;
+  --code-color:#e0e0e0;
+  --coffee-color:#bcad94;
+  --contacts-bg-color:#f7f086;
+  --lightbulb-color:#ffd200;
+}
+html.theme-dark{  
+  --menu-bg-color:#125688;
+  --card-bg-color:#363636;
+  --bg-color: #2d2d2d;
+  --text-color:white;
+  --pizza-color:#a74e00;
+  --code-color:#484848;
+  --coffee-color:#563c2c;
+  --contacts-bg-color:#67643b;
+  --lightbulb-color:#d2b117;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  font-weight: normal;
+}
+
+body {
+  min-height: 100vh;
+  min-width: 375px;
+  color: var(--text-color);
+  background-color: var(--bg-color) !important;
+  line-height: 1.6;
+  font-family:
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    'Fira Sans',
+    'Droid Sans',
+    'Helvetica Neue',
+    sans-serif;
+  font-size: 15px;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

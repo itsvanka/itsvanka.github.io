@@ -1,19 +1,11 @@
-import Vue from 'vue'
+import './assets/main.css'
+
+import { createApp } from 'vue'
 import App from './App.vue'
 import router from './router'
-import vuetify from './plugins/vuetify';
 
-Vue.config.productionTip = false
+const app = createApp(App)
 
-new Vue({
-  router,
-  vuetify,
-  render: function (h) { return h(App) },
-  created () {
-    if (sessionStorage.redirect) {
-      const redirect = sessionStorage.redirect
-      delete sessionStorage.redirect
-      this.$router.push(redirect)
-    }
-  }
-}).$mount('#app')
+app.use(router)
+
+app.mount('#app')

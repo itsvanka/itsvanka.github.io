@@ -1,0 +1,27 @@
+[
+  {
+    "title": ["Synced Scroll","(Chrome Extension)"],
+    "url": "https://chromewebstore.google.com/detail/synced-scroll/cjakeingonnefmieodehgnlcdkpnifnb",
+    "image": "synced_scroll_ce.png"
+  },
+  {
+    "title": ["Scroll Lock on Resize","(Chrome Extension)"],
+    "url": "https://chromewebstore.google.com/detail/scroll-lock-on-resize/jilhfmnmfdgagkcgnkoeejoffkdhbhhi",
+    "image": "scroll_lock_ce.png"
+  },
+  {
+    "title": ["The Wilke Lab","at UT Austin"],
+    "url": "https://wilkelab.org/",
+    "image": "wilkelab.png"
+  },
+  {
+    "title": ["Sauer Lab at UT Austin"],
+    "url": "https://structuralbiology.cns.utexas.edu/",
+    "image": "sauer_lab.png"
+  },
+  {
+    "title": ["CTX - distributor of composite","reinforcement materials"],
+    "url": "https://ctxci.com/",
+    "image": "ctx.png"
+  }
+]
