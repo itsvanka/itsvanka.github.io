@@ -1,4 +1,22 @@
-<script>
-  // redirect everything back to Vue app
-  location.replace(location.pathname + location.search + location.hash)
-</script>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Ivan Chernyshov</title>
+    <script>
+      (function () {
+        var path = location.pathname + location.search + location.hash;
+
+        // prevent infinite loop
+        if (sessionStorage.getItem('redirected')) {
+          sessionStorage.removeItem('redirected');
+          return;
+        }
+
+        sessionStorage.setItem('redirected', 'true');
+
+        // redirect to index.html with path preserved
+        location.replace('/?redirect=' + encodeURIComponent(path));
+      })();
+    </script>
+  </head>
+</html>

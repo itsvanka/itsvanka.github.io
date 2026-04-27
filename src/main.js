@@ -9,3 +9,10 @@ const app = createApp(App)
 app.use(router)
 
 app.mount('#app')
+
+const url = new URL(window.location.href)
+const redirect = url.searchParams.get('redirect')
+
+if (redirect) {
+  router.push(redirect)
+}
